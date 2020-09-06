@@ -1,0 +1,121 @@
+.banner {
+  overflow: hidden;
+  height: calc(100vh - 50px);
+  background-image: url('https://hahow.in/2nd-birthday/img/keyvisual/main-video-thumb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  iframe {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .mask {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  .maskHidden {
+    background: transparent;
+  }
+
+  .slogan {
+    margin: 53% auto 0;
+    display: block;
+    position: relative;
+    @media screen and (max-width: 767px) {
+      transform: scale(1.2);
+    }
+  }
+
+  .play {
+    position: relative;
+    line-height: 1em;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    margin: 60px auto 40px;
+    display: flex;
+    color: var(--yellow);
+
+    i,span {
+      align-self: center;
+    }
+
+    i {
+      display: block;
+      height: 30px;
+      width: 30px;
+      margin: 0 5px;
+      background-image: url(https://hahow.in/2nd-birthday/img/icon/play.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .linkToHahow {
+    width: 142px;
+    margin: 15px auto 0;
+    display: block;
+    position: relative;
+  }
+}
+
+.menu {
+  background: RGB(39, 183, 165);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 767px) {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  a {
+    color: #fff;
+    font-size: 1rem;
+    align-self: center;
+  }
+}
+
+.lifeStyle {
+  background-color: var(--yellow);
+  height: 50vh;
+}
+
+.case {
+  background-color: #fff7e1;
+  height: 50vh;
+
+  &:target {
+    padding-top: 60px !important;
+    margin-top: -60px;
+  }
+}
+
+.hahow {
+  background-color: #fff;
+  height: 20vh;
+
+  &:target {
+    padding-top: 60px !important;
+    margin-top: -60px;
+  }
+}
+
+.product {
+  background-color: var(--yellow);
+  height: 50vh;
+}
+
+.fb {
+  height: 265px;
+  background-color: #3162a4;
+}
