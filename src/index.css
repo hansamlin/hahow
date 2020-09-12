@@ -1,5 +1,11 @@
 :root {
   --yellow: #ffd561;
+  --case: #00b19c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,6 +15,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+p {
+  font-size: 1rem;
+  line-height: 1.75em;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 code {
